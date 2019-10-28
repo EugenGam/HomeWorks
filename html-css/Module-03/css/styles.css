@@ -13,54 +13,121 @@ a {
     text-decoration: none;
 }
 
-img {
+
+.img {
     display: block;
     width: 420px;
     height: 280px;
+    padding-bottom: 30px;
 }
+.header {
+    padding-bottom: 20px;
+    padding-top: 75px;
 
+}
 .container {
     width: 900px;
     margin: 0 auto;
     background-color: transparent;
+    font-size: 0px;
 }
 
 .header_list {
-    display: inline-block;
-    margin-bottom: 100px;
-    padding-top: 75px;
-    align-content: center;
-    
+    text-align: left;
+    font-size: 14px; 
+    width: 658px; 
+    margin: 0 auto;
+    text-transform: uppercase;  
+    font-family: 'Playfair Display', serif;
 }
 
 .header_item {
     display: inline-block;
+    margin-right: 110px;
     
-    margin-right: 70px;
+}
 
+
+
+.header_item_first {
+    display: inline-block;
+    margin-right: 127px;
+}
 
 .header_item_last {
     display: inline-block;
-    
-    margin-right: 0px;
-    
+    margin-right: 0;
 }
 
+.header_link {
+    text-decoration: none;
+    color:#626262;
 }
-.artcl_left {
+
+
+.header_link:hover {
+    color: #03a9f4;
+}
+
+.artcl {
     display: inline-block;
-    align-content: center;
     width: 420px;
-    height: 500px;
-    margin-right: 50px;
-    margin-bottom 135px;
+    height: 585px;
+    margin-bottom: 55px;
+    padding-top: 85px;
+}
+
+.artcl_left {
+    margin-right: 60px;
+    
 }
 
 .artcl_rigth {
-    display: inline-block;
-    align-content: center;
-    width: 420px;
-    height: 500px;
+
     margin-right: 0px;
-    margin-bottom 135px;
+    
+}
+
+.teg {
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    color: #626262;
+    font-size: 14px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+
+}
+
+.artcl_text {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+}
+
+.atrcl_title {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-bottom: 37px;
+    color: #626262;
+}
+
+.button {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #626262;
+    display: block;
+    width: 164px;
+    height: 60px;
+    border-width: 2px;
+    border-color: #626262;;
+    border-style: solid;
+    background-color: transparent;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    margin-bottom: 70px;
 }
