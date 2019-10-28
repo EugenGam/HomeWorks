@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 420px;
+    height: 280px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.header_list {
+    display: inline-block;
+    margin-bottom: 100px;
+    padding-top: 75px;
+    align-content: center;
+    
+}
+
+.header_item {
+    display: inline-block;
+    
+    margin-right: 70px;
+
+
+.header_item_last {
+    display: inline-block;
+    
+    margin-right: 0px;
+    
+}
+
+}
+.artcl_left {
+    display: inline-block;
+    align-content: center;
+    width: 420px;
+    height: 500px;
+    margin-right: 50px;
+    margin-bottom 135px;
+}
+
+.artcl_rigth {
+    display: inline-block;
+    align-content: center;
+    width: 420px;
+    height: 500px;
+    margin-right: 0px;
+    margin-bottom 135px;
+}
