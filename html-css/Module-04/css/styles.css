@@ -61,9 +61,12 @@ button {
 }
 
 .goods_name {
+    width: 201px;
+    height: 40px;   
     float: left; 
-    margin-left: 13px;
-    margin-top: 9px; 
+    padding-left: 13px;
+    padding-top: 9px; 
+    text-align: left;
 }
 
 .price {
@@ -154,6 +157,13 @@ h1 {
     margin-bottom: 100px;
 }
 
+.goods_button_link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+ }
 
 h2 {
     text-align: center;
@@ -223,12 +233,15 @@ h3::after {
 .artcl_button {
     width: 160px;
     height: 50px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16pt;
-    font-weight: 600;
-    color: #ffffff;
     background-color: #1abc9c;
     border: 0px;
     border-radius: 3px;
 }
  .artcl_button::first-letter {text-transform: uppercase;;}
+
+ .artcl_button_link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    font-weight: 600;
+    color: #ffffff;
+ }
