@@ -88,8 +88,9 @@ button {
     font-weight: 300;
 }
 
-.logo:hover::first-letter {
+.logo::first-letter {
     color: #1abc9c;
+    font-weight: 600;
 }
 
 .link:hover{
@@ -213,6 +214,7 @@ h3::after {
     font-size: 18pt;
     color: #515151;
     margin-bottom: 45px;
+    line-height: 26px;
 }
 
 .artcl_text {
@@ -220,6 +222,7 @@ h3::after {
     font-size: 14pt;
     color: #515151;
     margin-bottom: 30px;
+    line-height: 26px;
 }
 
 .shop_button::after {
