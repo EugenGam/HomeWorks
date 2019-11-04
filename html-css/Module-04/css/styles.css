@@ -40,7 +40,7 @@ button {
 
 .link {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14pt;
+    font-size: 19px;
     text-transform: uppercase;
     font-weight: 600;
     color: #515151;
@@ -50,7 +50,7 @@ button {
     width: 255px;
     height: 40px;
     font-family: 'Roboto', sans-serif;
-    font-size: 14pt;
+    font-size: 19px;
     text-transform: uppercase;
     font-weight: 600;
     color: #ffffff;
@@ -82,7 +82,7 @@ button {
 
 .logo {
     font-family: 'Roboto', sans-serif;
-    font-size: 30pt;
+    font-size: 40px;
     text-transform: uppercase;
     color: #515151;
     font-weight: 300;
@@ -100,7 +100,7 @@ button {
 h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 48pt;
+    font-size: 64px;
     text-transform: uppercase;
     margin-bottom: 135px;
     color: #515151;
@@ -160,7 +160,7 @@ h1 {
 
 .goods_button_link {
     font-family: 'Roboto', sans-serif;
-    font-size: 14pt;
+    font-size: 19px;
     text-transform: uppercase;
     font-weight: 600;
     color: #ffffff;
@@ -169,7 +169,7 @@ h1 {
 h2 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 48pt;
+    font-size: 64px;
     text-transform: uppercase;
     margin-bottom: 120px;
     color: #515151;
@@ -211,7 +211,7 @@ h3::after {
 }
 .artcl_list_item h3 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18pt;
+    font-size: 24px;
     color: #515151;
     margin-bottom: 45px;
     line-height: 26px;
@@ -219,7 +219,7 @@ h3::after {
 
 .artcl_text {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14pt;
+    font-size: 19px;
     color: #515151;
     margin-bottom: 30px;
     line-height: 26px;
@@ -244,7 +244,7 @@ h3::after {
 
  .artcl_button_link {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16pt;
+    font-size: 21px`;
     font-weight: 600;
     color: #ffffff;
  }
