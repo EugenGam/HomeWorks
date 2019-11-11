@@ -39,7 +39,7 @@ button {
 .link {
     font-family: 'Open Sans', sans-serif;
     font-size: 19px;
-    text-transform: uppercase;
+    text-transform: uppercase;footer
     font-weight: 600;
     color: #515151;
 }
@@ -317,14 +317,14 @@ h2::after {
     padding-top: 45px;
 }
 
-.adress_text {
+.footer_text {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
 }
-.adress_text_designer {
+.footer_text_designer {
     color: #1abc9c;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
