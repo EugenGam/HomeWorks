@@ -44,14 +44,7 @@ button {
     color: #515151;
 }
 
-.slider_p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 32px;
-    text-transform: uppercase;
-    color: #515151;
-    font-weight: 300;
 
-}
 
 
 .logo {
@@ -72,10 +65,108 @@ button {
 }
 
 
-
 .container {
     width: 1112px;  
     margin: 0 auto;
+    
+    
+}
+
+.container_goods {
+    width: 1600px;  
+    margin: 0 auto;
+    background-color: #e9f0fd;
+    
+}
+
+.goods_list_item:hover .goods_hover_menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.hover_button {
+    width: 50px;    
+    height: 50px;
+    background-color: transparent;
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+
+  
+
+.goods_hover_menu {
+    height: 282px;  
+    width: 255px;
+    position: absolute;
+    border-width: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    top: 0%;
+    left: 0%;
+    z-index: 11;
+    background-color: rgba(0, 0, 0, .549);
+    opacity: 0;
+    visibility: hidden;
+    font-size: 0px;
+}
+
+.hover_button_like {
+    background-image: url(/img/icons/like2.png);
+    background-size: cover;
+    position: absolute;
+    z-index: 12;    
+    left: 33px;
+    top: 90px;
+}
+
+.hover_button_arrows {
+    background-image: url(/img/icons/direction.png);
+    background-size: cover;
+    position: absolute;
+    z-index: 12;    
+    left: 50%;
+    transform: translateX(-50%);
+    top: 90px;
+    background-color: #1abc9c;
+}
+.hover_button_clock {
+    background-image: url(/img/icons/clock.png);
+    background-size: cover;
+    position: absolute;
+    width: 50px;    
+    height: 50px;
+    z-index: 12;    
+    right: 33px;
+    top: 90px;
+}
+
+.hover_button_cart {
+    background-image: url(/img/icons/cart.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+    position: absolute;
+    background-color: rgba(0, 0 ,0 , .6);
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    position: absolute;
+    z-index: 12;    
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150px;
+    width: 170px;
+    height: 50px;
+}
+
+.goods {
+    width: 1112px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo {
@@ -101,18 +192,48 @@ button {
   height: 600px;    
   width: 1600px;
   margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0 ,0 , .5), rgba(0, 0 ,0 , .5)), url(/img/sliderphoto.jpg); 
+  background-size: cover;
+
 }
 
 
-.dark_layer {
+.slider_text {
     position: absolute;
-    top: 0%;
-    left: 0%;
-    height: 600px;
-    width: 1600px;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2;
+    top: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 740px;
+    height: 98px;
+    z-index: 4;
+    font-size: 0px;
 }
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 82px;
+    letter-spacing: -0.02em;
+}
+
+
+
+
+
+.slider_subtitle {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 300;
+
+}
+  
 
 .slider_ctrl_item {
     display: block;
@@ -139,21 +260,14 @@ button {
     border: none;
     }
 
-.arrow {
-    margin: auto 0;
-    color:#ffffff;
-    font-size: 50px;
+.btn_right {
+    background-image: url(/img/icons/angle-right.png);
+    background-size: cover;
 }
 
-
-
-h1 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 80px;
-    text-transform: uppercase;
-    margin-bottom: 135px;
-    color: #ffffff;
+.btn_left {
+    background-image: url(/img/icons/angle-left.png);
+    background-size: cover;
 }
 
 
@@ -180,19 +294,19 @@ h2::after {
     margin-top: 30px;
 }
 
-.goods {
-    padding-top: 100px;
-    margin-bottom: 100px;
-}
 
 .goods_list_item {
     float: left;
     margin-right: 30px;
+    position: relative;
 }
 
 .goods_list_item:nth-child(4) {
     margin-right: 0px;
 }
+
+.goods_list_item:hover .goods_button {background: linear-gradient(to right, #1abc9c, #1abc9c 78%, #7fd9c7 78%);} 
+
 
 .footer {
     height: 100px;
@@ -206,7 +320,42 @@ h2::after {
 .adress_text {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
 }
+.adress_text_designer {
+    color: #1abc9c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.goods_button {
+    position: absolute;
+    height: 40px;
+    width: 255px;
+    font-family: 'Roboto', sans-serif;
+    bottom: 0px;
+    border: none;
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #000000, #000000 78%, #8c8c8c 78%);
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.goods_name {
+    display: block;
+    float: left;
+}
+
+.goods_price {
+    display: block;
+    float: right;
+}
+
+
