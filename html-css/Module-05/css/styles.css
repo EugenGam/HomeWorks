@@ -193,7 +193,10 @@ button {
   width: 1600px;
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0 ,0 , .5), rgba(0, 0 ,0 , .5)), url(/img/sliderphoto.jpg); 
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: contain;
+
 
 }
 
