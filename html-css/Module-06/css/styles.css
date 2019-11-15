@@ -229,7 +229,6 @@ h2::after {
     justify-content: space-between;
     width: 1200px;
     margin: 0 auto;
-
 }
 
 .team_item img {
@@ -239,22 +238,41 @@ h2::after {
     margin-bottom: 30px;
 }
 
+.team_item {
+    position: relative;
+}
 
 
-.team_item img::after {
+
+.hover_menu{ 
     display: block;
     content: "";
     position: absolute;
     z-index: 2;
     background-image: linear-gradient(#fce38a, #f38181);
     top: 0%;
+    left: 0%;
     height: 470px;
     width: 380px;
+    opacity: 0;
+    visibility: none;
+    box-shadow: 10px 10px 0px 0px #95e1d3;
 }
 
-.team_item1:hover .team_img1 {
-    top: 15px;
+.team_item:hover .team_img{
+    top: -10px;
+    left: -10px;
+
 }
+
+.team_item:hover .hover_menu{
+    top: -10px;
+    left: -10px;
+    opacity: .9;
+    visibility: visible;
+}
+
+
 
     
 
@@ -341,3 +359,57 @@ h2::after {
     transition: all .2s linear;
 }
 
+.hover_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hover_menu_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 227px;
+    height: 56px;
+}
+
+.soc_btn {
+    display: block;
+    border: none;
+    width: 56px;
+    height: 56px;
+}
+
+.btn_insta {
+    background-image: url(../img/icons/insta.png), linear-gradient(#fce38a, #fce38a);
+}
+
+.btn_P {
+    background-image: url(../img/icons/P.png), linear-gradient(#fce38a, #fce38a);
+}
+
+.btn_twitter {
+    background-image: url(../img/icons/twitter.png), linear-gradient(#fce38a, #fce38a);
+}
+
+.bnt_facebook {
+    background-image: url(../img/icons/facebook.png), linear-gradient(#fce38a, #fce38a);
+}
+
+
+.btn_insta:hover {
+    background-image: url(../img/icons/insta.png), linear-gradient(#95e1d3, #95e1d3);
+}
+
+.btn_P:hover {
+    background-image: url(../img/icons/P.png), linear-gradient(#95e1d3, #95e1d3);
+}
+
+.btn_twitter:hover {
+    background-image: url(../img/icons/twitter.png), linear-gradient(#95e1d3, #95e1d3);
+}
+
+.bnt_facebook:hover  {
+    background-image: url(../img/icons/facebook.png), linear-gradient(#95e1d3, #95e1d3);
+}
