@@ -240,6 +240,7 @@ h2::after {
 
 .team_item {
     position: relative;
+    transition: all 3.2s linear;
 }
 
 
@@ -257,19 +258,23 @@ h2::after {
     opacity: 0;
     visibility: none;
     box-shadow: 10px 10px 0px 0px #95e1d3;
+    
 }
 
 .team_item:hover .team_img{
     top: -10px;
     left: -10px;
+    transition: all .2s linear;
 
 }
 
 .team_item:hover .hover_menu{
     top: -10px;
     left: -10px;
-    opacity: .9;
+    opacity: 1;
     visibility: visible;
+    background-image: linear-gradient(rgba(252, 227, 138, .9), rgba(243, 129, 129, .9));
+    transition: all .2s linear;
 }
 
 
@@ -408,16 +413,20 @@ h2::after {
 
 .btn_insta:hover {
     background-image: url(../img/icons/insta.png), linear-gradient(#95e1d3, #95e1d3);
+transition: all .2s linear;
 }
 
 .btn_P:hover {
     background-image: url(../img/icons/P.png), linear-gradient(#95e1d3, #95e1d3);
+transition: all .2s linear;
 }
 
 .btn_twitter:hover {
     background-image: url(../img/icons/twitter.png), linear-gradient(#95e1d3, #95e1d3);
+transition: all .2s linear;
 }
 
 .bnt_facebook:hover  {
     background-image: url(../img/icons/facebook.png), linear-gradient(#95e1d3, #95e1d3);
+transition: all .2s linear;
 }
