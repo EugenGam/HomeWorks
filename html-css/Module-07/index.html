@@ -5,15 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Module-06</title>
+    <title>Module-07</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,600,700|Pattaya|Roboto+Slab:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav class="navigation">
-                    <a href="#" class="logo">gloden</a>
+                    <a href="#" class="logo">golden</a>
                     <ul class="menu-list">
                         <li class="menu_item">
                             <a href="#" class="menu_link">home</a>
@@ -55,22 +54,20 @@
         <section class="contact_us">
             <h2 class="title">contact us</h2>
             <p class="subtitle">Proin iaculis purus consequat sem cure.</p> 
-            <div class="input_box">
-               <ul class="input_list">
-                   <li class="input_item"><input class="name input" name = "name" type = "text" placeholder = "your name*"></li>
-                   <li class="input_item"><input class="email input" name = "email" type = "text" placeholder = "your e-mail*"></li>
-                    <li class="input_item"><input class="subject input" name = "subject" type = "text" placeholder = "subject"></li>
-               </ul>
-               <input class="your_text" type = "text" name = "message" placeholder = "your message*">
-            </div>
-            <button class="btn_send">send message</button>
+                <form action="#" class="form">
+                    <div class="input_box">
+                        <div class="input_lines">
+                            <input class="name input" name = "name" type = "text" placeholder = "your name*" required>
+                            <input class="email input" name = "email" type = "email" placeholder = "your e-mail*" required>
+                            <input class="subject input" name = "subject" type = "text" placeholder = "subject">
+                        </div>
+                        <textarea  class="your_text input" type = "text" name = "message" placeholder = "your message*" required></textarea>
+                    </div>
+                    <button type="submit" class="btn_send">send message</button>
+                </form>
+            
         </section>
-
-
     </main>
-    <footer>
-
-    </footer>
-
+    
 </body>
 </html>
