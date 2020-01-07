@@ -472,6 +472,7 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    align-items: center;
 }
 
 
@@ -515,36 +516,41 @@ button {
 .footer-input__email::-webkit-input-placeholder {
     font-family: "Roboto";
     color: #cccccc; 
-    font-weight: italic;
-    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 0.9375rem;
 }
   
 .footer-input__email::-moz-placeholder {
     font-family: "Roboto";
     color: #cccccc; 
-    font-weight: italic;
-    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 0.9375rem;
 }
   
 .footer-input__email:-ms-input-placeholder {
     font-family: "Roboto";
     color: #cccccc; 
-    font-weight: italic;
-    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 0.9375rem;
 }
   
 .footer-input__email::-ms-input-placeholder {
     font-family: "Roboto";
     color: #cccccc; 
-    font-weight: italic;
-    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 0.9375rem;
 }
   
 .footer-input__email::placeholder {
     font-family: "Roboto";
     color: #cccccc; 
-    font-weight: italic;
-    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 0.9375rem;
 }
 
   .footer-input__email {
@@ -561,9 +567,15 @@ button {
     font-size: 0.875rem;
   }
 
+  .footer-input__focus:focus {
+      outline-color: #95e1d3;
+
+  }
+
   .footer-content__text {
+    margin-right: 4px;
     font-family: "Montserrat";
-    font-weight: 400;
+    font-weight: 700;
     font-size: 0.875rem;
     color: #333333;
   }
@@ -581,3 +593,13 @@ button {
     height: 18px;
     fill: #ffffff;
 }
+
+.footer-content__link {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.875rem;
+    color: #f38181;
+}
+
+  
