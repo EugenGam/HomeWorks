@@ -1,0 +1,50 @@
+.subtitle {
+    font-size: 1.5rem;
+    font-family: "Kaushan Script";
+    color: $body-title-color;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+font-size: 1.875rem;
+font-family: $main-font;
+color: $body-title-color;
+font-weight: bold;
+text-transform: uppercase;
+line-height: 1.2;
+text-align: center;
+margin-bottom: 105px;
+
+&::after {
+    position: relative;
+    top: 40px;
+    content: '';
+    display: block;
+    background-color: $red-color;
+    width: 60px;
+    height: 3px;
+    margin:  0 auto;
+}
+}
+
+
+
+
+.low-title {
+font-size: 0.875rem;
+font-family: $main-font;
+color: $body-title-color;
+text-transform: uppercase;
+line-height: 1.2;
+margin-bottom: 20px;
+}
+
+.text {
+font-size: $text-size;
+font-family: $second-font;
+color: $body-text-color;
+line-height: 1.6;
+}
+

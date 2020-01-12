@@ -1,0 +1,56 @@
+.hover-menu { 
+    display: block;
+    content: "";
+    position: absolute;
+    z-index: 2;
+    background-image: linear-gradient(rgba(252, 227, 138, .9), rgba(243, 129, 129, .9));
+    top: 0%;
+    left: 0%;
+    height: 470px;
+    width: 380px;
+    opacity: 0;
+    visibility: none;
+    padding-top: 205px;
+
+    &__item:hover .icon {
+        fill: #ffffff;
+    }
+    
+    
+    &__item:hover .hover-menu__button {
+        background-color: $red-color;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+         align-items: center;
+        width: 227px;
+        height: 56px;
+        margin: 0 auto;
+        
+    }
+    
+    &__button {
+        display: flex;
+        border: none;
+        width: 56px;
+        height: 56px;
+        justify-content: center;
+        align-items: center;
+        background-color: $yel-color;
+    }
+    
+    
+}
+
+.icon {
+    display: block;
+    width: 60%;
+    height: 60%;
+    fill: $red-color;
+}
+
+
+

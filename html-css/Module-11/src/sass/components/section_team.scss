@@ -1,0 +1,57 @@
+.section-team {
+    padding-bottom: 83px;
+    border-bottom-color:#e5e5e5;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+    &__text {
+        width: 980px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__img {
+        position: relative;
+        margin-bottom: 30px;
+      
+    }
+
+    &__name {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    &__descrpt {
+        text-align: center;
+    }
+    
+}
+
+
+
+.section-team__item {
+    position: relative;
+
+    &:hover .hover-menu {
+        top: -10px;
+        left: -10px;
+        box-shadow: $main-color 10px 10px;
+        top: -10px;
+        left: -10px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &:hover .section-team__img {
+        top: -10px;
+        left: -10px;
+      }
+}
+
+

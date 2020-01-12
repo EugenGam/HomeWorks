@@ -1,0 +1,51 @@
+.section-work-with__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-work-with__text {
+    text-align: left;
+}
+.section-work-with__item:not(:nth-child(n+4)) {
+    margin-bottom: 100px;
+}
+
+.section-work-with__item {
+    display: block;
+    width: 375px;
+    min-height: 80px;
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+   background-position-x: 21px;
+}
+
+
+.services-photography {
+  background-image: url(../images/1.png);
+}
+
+.services-web_design {
+  background-image: url(../images/2.png);
+}
+
+.services-creativity {
+  background-image: url(../images/3.png);
+}
+
+.services-seo {
+  background-image: url(../images/4.png);
+}
+
+.services-htmlcss {
+  background-image: url(../images/5.png);
+}
+
+.services-digital {
+  background-image: url(../images/6.png);
+}
+
+.section {
+    padding-top: 40px;
+}
